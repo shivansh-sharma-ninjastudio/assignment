@@ -1,0 +1,11 @@
+"use client";
+
+export default function Sudoku() {
+  return (
+    <div className="flex h-screen items-center justify-center bg-zinc-50 dark:bg-black">
+      <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
+        Sudoku Page
+      </h1>
+    </div>
+  );
+}
