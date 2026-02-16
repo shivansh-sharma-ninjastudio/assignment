@@ -68,7 +68,7 @@ export default function AuthenticatedHome() {
           <div className="flex gap-4 mt-4">
             <button
               onClick={handleLogout}
-              className="rounded-full bg-red-600 px-5 py-2 text-white hover:bg-red-700 transition-colors"
+              className="rounded-full bg-red-600 px-5 py-2 cursor-pointer text-white hover:bg-red-700 transition-colors"
             >
               Logout
             </button>

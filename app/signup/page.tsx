@@ -195,20 +195,6 @@ export default function SignUpPage() {
               )}
             </button>
           </form>
-
-          <div className="mt-6 text-center text-sm text-gray-500 dark:text-gray-400">
-            Already have an account?{" "}
-            <a
-              href="#"
-              className="font-medium text-blue-600 hover:text-blue-500 dark:text-blue-400"
-              onClick={(e) => {
-                e.preventDefault();
-                alert("Sign up only in this demo!");
-              }}
-            >
-              Log in
-            </a>
-          </div>
         </div>
       </div>
     </div>
